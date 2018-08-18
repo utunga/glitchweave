@@ -1,5 +1,5 @@
 {
-  "name": "Miles",
+  "name": "miles",
   "version": "1.0.0",
   "description": "",
   "main": "public/js/main.js",
@@ -7,7 +7,8 @@
     "test": "npm run ts-node testrunner.ts",
     "webpack": "webpack",
     "http-server": "http-server",
-    "ts-node": "ts-node"
+    "ts-node": "ts-node",
+    "start": "http-server"
   },
   "author": "",
   "license": "ISC",
@@ -18,13 +19,14 @@
     "@types/jquery": "^3.2.13",
     "@types/node": "^8.0.34",
     "@types/webpack": "^3.0.13",
+    "alsatian": "*",
     "awesome-typescript-loader": "^3.2.3",
     "http-server": "^0.10.0",
     "jquery": "^3.2.1",
+    "now": "^11.3.10",
     "ts-node": "^3.3.0",
     "tslint": "^5.7.0",
     "typescript": "^2.5.3",
-    "webpack": "^3.7.1",
-    "alsatian": "*"
+    "webpack": "^3.7.1"
   }
 }
